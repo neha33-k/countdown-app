@@ -23,27 +23,29 @@ export const color = {
   /**
    * The screen background.
    */
-  background: palette.white,
+  background: '#161615',
+  backgroundLight: '#232320',
   /**
    * The main tinting color.
    */
-  primary: palette.orange,
+  primary: '#ffb224',
   /**
    * The main tinting color, but darker.
    */
-  primaryDarker: palette.orangeDarker,
+  primaryDarker: '#693f05',
   /**
    * A subtle color used for borders and lines.
    */
-  line: palette.offWhite,
+  line: '#353431',
   /**
    * The default color of text in many components.
    */
-  text: palette.white,
+  text: '#a1a09a',
+  textHighLighted: '#ededec',
   /**
    * Secondary information.
    */
-  dim: palette.lightGrey,
+  dim: '#717069',
   /**
    * Error messages and icons.
    */
@@ -61,4 +63,18 @@ export const color = {
    * white background
    */
   storybookTextColor: palette.black,
+}
+const sandDark = {
+  sand1: '#161615',
+  sand2: '#1c1c1a',
+  sand3: '#232320',
+  sand4: '#282826',
+  sand5: '#2e2e2b',
+  sand6: '#353431',
+  sand7: '#3e3e3a',
+  sand8: '#51504b',
+  sand9: '#717069',
+  sand10: '#7f7e77',
+  sand11: '#a1a09a',
+  sand12: '#ededec',
 }
